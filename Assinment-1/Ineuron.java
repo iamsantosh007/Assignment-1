@@ -18,7 +18,7 @@ public class Ineuron {
                 }
             }
             for (int j = 0; j < inner; j++) {
-                if(i==0 | i==(outer*2)/4 |i==(outer-1) | j==0){
+                if(i==0 || i==(outer*2)/4 && j!=4 || i==(outer-1) || j==0){
                     System.out.print("*  ");
                 }else{
                     System.out.print("   ");
